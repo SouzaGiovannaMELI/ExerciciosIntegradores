@@ -1,0 +1,29 @@
+[ {
+  "brand" : "Chevrolet",
+  "model" : "Corsa",
+  "manufacturingDate" : "2000-11-20",
+  "numberOfKilometers" : 115000,
+  "doors" : 5,
+  "price" : 90000.0,
+  "currency" : "AR",
+  "services" : [ {
+    "date" : "2003-05-20",
+    "kilometers" : 60000,
+    "descriptions" : "Change air filters"
+  } ],
+  "countOfOwners" : 2
+}, {
+  "brand" : "Fiat",
+  "model" : "Adventure",
+  "manufacturingDate" : "2012-11-20",
+  "numberOfKilometers" : 115000,
+  "doors" : 5,
+  "price" : 30000.0,
+  "currency" : "AR",
+  "services" : [ {
+    "date" : "2003-05-20",
+    "kilometers" : 60000,
+    "descriptions" : "Change air test"
+  } ],
+  "countOfOwners" : 2
+} ]
