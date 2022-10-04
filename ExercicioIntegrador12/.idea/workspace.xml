@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdf0dc7-2bd6-4705-a893-fcd119b16ce0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/ExercicioIntegrador12Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/controller/VeiculoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/dto/VeiculoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/exception/ExceptionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/exception/HandlerExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/model/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/model/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/repository/VeiculoRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/service/IVeiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/service/VeiculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/veiculos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/meli/dh/exerciciointegrador12/ExercicioIntegrador12ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/ExceptionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/HandlerExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/HasExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/repository/BlogRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExercicioIntegrador13/src/main/java/br/com/meli/dh/exerciciointegrador13/service/IBlog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +56,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "adee7e2f969dd5cdb0e74f05a0a86cab"
   }
 }]]></component>
   <component name="RunManager">
@@ -84,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664828729493</updated>
-      <workItem from="1664828730888" duration="6584000" />
+      <workItem from="1664828730888" duration="9286000" />
+      <workItem from="1664839350858" duration="599000" />
     </task>
     <servers />
   </component>
@@ -101,26 +96,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/repository/VeiculoRepo.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/repository/VeiculoRepo.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador12/repository/VeiculoRepo.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
