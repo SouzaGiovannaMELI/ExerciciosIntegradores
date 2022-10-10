@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 public class StudentDTO {
     @NotEmpty(message = "O nome do aluno não pode ficar vazio")
-    @Pattern(regexp = "^[A-Z][a-záéíóúàèìòùâêîôûãõ]+", message = "A inicial do nome deve ser maiuscula")
+    @Pattern(regexp = "^[A-ZÁÉÍÓÚÀÈÌÒÙÂÊÎÔÛÃÕ][a-záéíóúàèìòùâêîôûãõ]+", message = "A inicial do nome deve ser maiuscula")
     @Size(max = 50, message = "o comprimento do nome não pode exceder 50 caracteres")
     String studentName;
     String message;
