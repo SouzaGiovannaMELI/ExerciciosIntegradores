@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f1ad22-afca-4968-8bbb-0856e77eefa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/ExceptionDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/HandlerExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/HasExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/repository/BlogRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/exerciciointegrador13/service/IBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExercicioIntegrador12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioIntegrador12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +74,7 @@
       <workItem from="1664836447386" duration="2885000" />
       <workItem from="1664839348314" duration="629000" />
       <workItem from="1664892953813" duration="717000" />
-      <workItem from="1664912978448" duration="2767000" />
+      <workItem from="1664912978448" duration="3986000" />
     </task>
     <servers />
   </component>
