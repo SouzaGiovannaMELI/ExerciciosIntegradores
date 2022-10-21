@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f4992ca-aff5-4a4d-b420-7d612f5c955e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2G0GPY3Y0qoVKppQhMiYH16FmVA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gsalmeida/Workspaces/Exercícios Integradores/ExercicioIntegrador15&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b24434a92120541478eb0f2d561e6d2a&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.meli.obterdiploma.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ObterDiplomaApplication">
+    <configuration name="ObterDiplomaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="obterdiploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meli.obterdiploma.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meli.obterdiploma.service" />
+      <option name="MAIN_CLASS_NAME" value="com.meli.obterdiploma.service.ObterDiplomaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObterDiplomaServiceTest.analyzeScores_retorneStudentDTO_quandoSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="obterdiploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meli.obterdiploma.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meli.obterdiploma.service" />
+      <option name="MAIN_CLASS_NAME" value="com.meli.obterdiploma.service.ObterDiplomaServiceTest" />
+      <option name="METHOD_NAME" value="analyzeScores_retorneStudentDTO_quandoSucesso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObterDiplomaServiceTest.findById_throwsStudentNotFoundException_quandoStudentNaoExiste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="obterdiploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meli.obterdiploma.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meli.obterdiploma.service" />
+      <option name="MAIN_CLASS_NAME" value="com.meli.obterdiploma.service.ObterDiplomaServiceTest" />
+      <option name="METHOD_NAME" value="findById_throwsStudentNotFoundException_quandoStudentNaoExiste" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObterDiplomaServiceTest.saveStudent_returnId_quandoSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="obterdiploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meli.obterdiploma.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meli.obterdiploma.service" />
+      <option name="MAIN_CLASS_NAME" value="com.meli.obterdiploma.service.ObterDiplomaServiceTest" />
+      <option name="METHOD_NAME" value="saveStudent_returnId_quandoSucesso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOTest.saveStudent_throwException_quandoNameEhNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="obterdiploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meli.obterdiploma.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meli.obterdiploma.model" />
+      <option name="MAIN_CLASS_NAME" value="com.meli.obterdiploma.model.StudentDAOTest" />
+      <option name="METHOD_NAME" value="saveStudent_throwException_quandoNameEhNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObterDiplomaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="obterdiploma" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meli.obterdiploma.ObterDiplomaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ObterDiplomaServiceTest.analyzeScores_retorneStudentDTO_quandoSucesso" />
+        <item itemvalue="JUnit.ObterDiplomaServiceTest.saveStudent_returnId_quandoSucesso" />
+        <item itemvalue="JUnit.ObterDiplomaServiceTest.findById_throwsStudentNotFoundException_quandoStudentNaoExiste" />
+        <item itemvalue="JUnit.ObterDiplomaServiceTest" />
+        <item itemvalue="JUnit.StudentDAOTest.saveStudent_throwException_quandoNameEhNull" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f4992ca-aff5-4a4d-b420-7d612f5c955e" name="Changes" comment="" />
+      <created>1665518064419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665518064419</updated>
+      <workItem from="1665518066091" duration="4272000" />
+      <workItem from="1665663081920" duration="4904000" />
+      <workItem from="1665685260718" duration="2064000" />
+      <workItem from="1666107583238" duration="6504000" />
+      <workItem from="1666190438042" duration="2072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
