@@ -34,4 +34,11 @@ public class ObterDiplomaControllerTests {
         verify(service, atLeastOnce()).analyzeScores(stu.getId());
     }
 
+    @Test
+    public void obterDiploma_throwMethodArgumentNotValidException(){
+        StudentDTO stu = TestUtilsGenerator.getStudentWith3Subjects("");
+
+        controller.analyzeScores(stu.getId());
+    }
+
 }
