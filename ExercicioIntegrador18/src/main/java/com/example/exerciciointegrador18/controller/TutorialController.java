@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/tutorials")
@@ -27,7 +28,12 @@ public class TutorialController {
 
     @GetMapping("/by_id/{id}")
     public ResponseEntity<Tutorial> getById(@PathVariable long id){
-        return ResponseEntity.ok(service.getById(id));
+        Optional<Tutorial> tutorial = service.getById(id);
+
+        if(tutorial.isPresent())
+            return ResponseEntity.ok(tutorial.get());
+
+        return ResponseEntity.notFound().build();
     }
 
     @PutMapping("/by_id/{id}")
@@ -55,5 +61,10 @@ public class TutorialController {
     @GetMapping("/by")
     public ResponseEntity<List<Tutorial>> getAllByTitle(@RequestParam String title){
         return ResponseEntity.ok(service.getAllByTitle(title));
+    }
+
+    @PatchMapping("/by_id/{id}/published")
+    public ResponseEntity<Tutorial> updateStatusPublished(@PathVariable long id){
+        return ResponseEntity.ok(service.updateStatusPublished(id));
     }
 }

@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Tutorial {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     @Column
     private String titulo;
@@ -22,5 +22,6 @@ public class Tutorial {
     private String descricao;
 
     @Column
-    private boolean publicado;
+    @Enumerated(EnumType.STRING)
+    private Status status;
 }
