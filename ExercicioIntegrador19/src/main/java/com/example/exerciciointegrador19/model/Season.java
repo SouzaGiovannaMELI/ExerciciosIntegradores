@@ -39,7 +39,7 @@ public class Season {
     @JsonIgnoreProperties("seasons")
     private Serie serie;
 
-    @OneToMany(mappedBy = "season", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "season", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("season")
     private List<Episode> episodes;
 }

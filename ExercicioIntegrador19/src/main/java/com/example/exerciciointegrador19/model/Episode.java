@@ -39,6 +39,6 @@ public class Episode {
     @JsonIgnoreProperties("episodes")
     private Season season;
 
-    @OneToMany(mappedBy = "episode")
+    @OneToMany(mappedBy = "episode", cascade = CascadeType.REMOVE)
     private List<ActorEpisode> actorEpisodeList;
 }

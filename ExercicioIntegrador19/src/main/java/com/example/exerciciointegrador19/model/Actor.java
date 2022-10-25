@@ -35,9 +35,9 @@ public class Actor {
     @JsonIgnoreProperties("actors")
     private Movie favorite_movie_id;
 
-    @OneToMany(mappedBy = "actor")
+    @OneToMany(mappedBy = "actor", cascade = CascadeType.REMOVE)
     private List<ActorMovie> actorMovieList;
 
-    @OneToMany(mappedBy = "actor")
+    @OneToMany(mappedBy = "actor", cascade = CascadeType.REMOVE)
     private List<ActorEpisode> actorEpisodeList;
 }

@@ -36,7 +36,7 @@ public class Serie {
     @JsonIgnoreProperties("series")
     private Genre genre;
 
-    @OneToMany(mappedBy = "serie", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "serie", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("serie")
     private List<Season> seasons;
 }

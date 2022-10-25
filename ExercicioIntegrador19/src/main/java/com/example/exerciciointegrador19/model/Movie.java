@@ -37,7 +37,7 @@ public class Movie {
     @Column
     private int lenght;
 
-    @OneToMany(mappedBy = "favorite_movie_id", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "favorite_movie_id", fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("favorite_movie_id")
     private List<Actor> actors;
 
@@ -46,6 +46,6 @@ public class Movie {
     @JsonIgnoreProperties("movies")
     private Genre genre;
 
-    @OneToMany(mappedBy = "movie")
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.REMOVE)
     private List<ActorMovie> actorMovieList;
 }
