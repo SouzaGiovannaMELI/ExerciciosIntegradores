@@ -6,6 +6,7 @@ import lombok.Data;
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Entity
@@ -37,4 +38,7 @@ public class Episode {
     @JoinColumn(name = "season_id")
     @JsonIgnoreProperties("episodes")
     private Season season;
+
+    @OneToMany(mappedBy = "episode")
+    private List<ActorEpisode> actorEpisodeList;
 }

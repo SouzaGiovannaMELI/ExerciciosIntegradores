@@ -37,4 +37,7 @@ public class Actor {
 
     @OneToMany(mappedBy = "actor")
     private List<ActorMovie> actorMovieList;
+
+    @OneToMany(mappedBy = "actor")
+    private List<ActorEpisode> actorEpisodeList;
 }
