@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class SerieService implements ISerieService{
-    private SerieRepo repo;
+    private final SerieRepo repo;
 
     @Override
     public Serie insert(Serie movie) {

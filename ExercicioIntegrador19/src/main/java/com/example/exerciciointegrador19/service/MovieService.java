@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class MovieService implements IMovieService{
-    private MovieRepo repo;
+    private final MovieRepo repo;
 
     @Override
     public Movie insert(Movie movie) {

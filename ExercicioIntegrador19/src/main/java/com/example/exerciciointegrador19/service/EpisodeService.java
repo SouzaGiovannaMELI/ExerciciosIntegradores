@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class EpisodeService implements IEpisodeService{
-    private EpisodeRepo repo;
+    private final EpisodeRepo repo;
 
     @Override
     public Episode insert(Episode episode) {

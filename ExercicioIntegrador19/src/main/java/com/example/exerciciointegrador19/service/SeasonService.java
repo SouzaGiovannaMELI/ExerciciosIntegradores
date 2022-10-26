@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class SeasonService implements ISeasonService{
-    private SeasonRepo repo;
+    private final SeasonRepo repo;
 
     @Override
     public Season insert(Season movie) {

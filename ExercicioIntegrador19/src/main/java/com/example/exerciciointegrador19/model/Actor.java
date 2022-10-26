@@ -31,7 +31,7 @@ public class Actor {
     private double rating;
 
     @ManyToOne
-    @JoinColumn(name = "favorite_movie_id")
+    @JoinColumn(name = "movie_id")
     @JsonIgnoreProperties("actors")
     private Movie favorite_movie_id;
 
