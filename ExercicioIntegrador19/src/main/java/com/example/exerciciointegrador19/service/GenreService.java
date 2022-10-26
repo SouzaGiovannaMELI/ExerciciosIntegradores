@@ -3,9 +3,11 @@ package com.example.exerciciointegrador19.service;
 import com.example.exerciciointegrador19.model.Genre;
 import com.example.exerciciointegrador19.repository.GenreRepo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class GenreService implements IGenreService{
     private GenreRepo repo;

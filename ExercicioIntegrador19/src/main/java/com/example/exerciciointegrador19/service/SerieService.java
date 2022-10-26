@@ -3,9 +3,11 @@ package com.example.exerciciointegrador19.service;
 import com.example.exerciciointegrador19.model.Serie;
 import com.example.exerciciointegrador19.repository.SerieRepo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class SerieService implements ISerieService{
     private SerieRepo repo;

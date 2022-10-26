@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,7 +18,7 @@ public class TutorialController {
     private ITutorialService service;
 
     @PostMapping
-    public ResponseEntity<Tutorial> save(@RequestBody Tutorial tutorial){
+    public ResponseEntity<Tutorial> save(@RequestBody @Valid Tutorial tutorial){
         return new ResponseEntity<>(service.save(tutorial), HttpStatus.CREATED);
     }
 

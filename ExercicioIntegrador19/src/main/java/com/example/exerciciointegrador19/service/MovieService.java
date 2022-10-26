@@ -3,9 +3,11 @@ package com.example.exerciciointegrador19.service;
 import com.example.exerciciointegrador19.model.Movie;
 import com.example.exerciciointegrador19.repository.MovieRepo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class MovieService implements IMovieService{
     private MovieRepo repo;

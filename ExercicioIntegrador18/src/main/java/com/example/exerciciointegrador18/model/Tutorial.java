@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Entity
 @Getter
@@ -17,10 +19,12 @@ public class Tutorial {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @NotBlank(message = "O título é obrigatório")
+    @Column(nullable = false)
     private String titulo;
 
     @Column
+    @Size(min = 10, message = "A descrição precisa de no mínimo 10 caracteres")
     private String descricao;
 
     @Column
