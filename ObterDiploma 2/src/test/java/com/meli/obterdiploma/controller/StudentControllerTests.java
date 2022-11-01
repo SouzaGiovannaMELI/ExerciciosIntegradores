@@ -78,12 +78,18 @@ public class StudentControllerTests {
     }
 
     @Test
-    public void getStudent_idFormatIsMissing() throws Exception {
-        // arrange
-        StudentDTO stu = TestUtilsGenerator.getStudentWith3Subjects("Marco");
-        when(service.read(stu.getId())).thenReturn(stu);
-
+    public void getStudent_idNumberInvalid() throws Exception {
         mockMvc.perform(get("/student/getStudent/{id}", -1L)).andExpect(status().isNotFound());
+    }
+
+    @Test
+    public void getStudent_idNotFound() throws Exception {
+        mockMvc.perform(get("/student/getStudent/{id}", 100)).andExpect(status().isNotFound());
+    }
+
+    @Test
+    public void getStudent_idFormatIsMissing() throws Exception {
+        mockMvc.perform(get("/student/getStudent/{id}", "asasa")).andExpect(status().isBadRequest());
     }
 
     @Test
@@ -108,6 +114,21 @@ public class StudentControllerTests {
 
         // assert
         verify(service, atLeastOnce()).delete(stu.getId());
+    }
+
+    @Test
+    public void removeStudent_idIsNegative() throws Exception {
+        mockMvc.perform(get("/student/getStudent/{id}", -1L)).andExpect(status().isNotFound());
+    }
+
+    @Test
+    public void removeStudent_idIsInvalid() throws Exception {
+        mockMvc.perform(get("/student/getStudent/{id}", "ddadadas")).andExpect(status().isBadRequest());
+    }
+
+    @Test
+    public void removeStudent_idNotFound() throws Exception {
+        mockMvc.perform(get("/student/getStudent/{id}", 100)).andExpect(status().isNotFound());
     }
 
     @Test
